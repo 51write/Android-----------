@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_6_2!</string>
+    <string name="app_name">Sample_6_2</string>
+    <string name="mi1">菜单项1</string>					<!-- 声明名为mi1的字符串资源 -->
+    <string name="mi2">菜单项2</string>					<!-- 声明名为mi2的字符串资源 -->
+    <string name="mi3">菜单项3</string>					<!-- 声明名为mi3的字符串资源 -->
+    <string name="mi4">菜单项4</string>					<!-- 声明名为mi4的字符串资源 -->
+    <string name="mi5">菜单项5</string>					<!-- 声明名为mi5的字符串资源 -->
+    <string name="et1">第一文本框</string>				<!-- 声明名为et1的字符串资源 -->
+    <string name="et2">第二文本框</string>				<!-- 声明名为et2的字符串资源 -->
+</resources>

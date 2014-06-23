@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">	<!-- 声明一个相对布局 -->
+	<ImageView 
+		android:id="@+id/ImageView01"
+		android:background="@drawable/center"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+	>														<!-- 声明一个ImageView控件 -->
+	</ImageView>
+	<ImageView 
+		android:id="@+id/ImageView02" 
+		android:background="@drawable/down"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+ 		android:layout_toRightOf="@id/ImageView01"     
+ 		android:layout_alignTop="@id/ImageView01" 
+	>														<!-- 声明一个ImageView控件 -->
+	</ImageView> 
+	<ImageView 
+		android:id="@+id/ImageView03" 
+		android:background="@drawable/up"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_above="@id/ImageView01"     
+		android:layout_alignLeft="@id/ImageView01"
+	>														<!-- 声明一个ImageView控件 -->
+	</ImageView>  
+</RelativeLayout>

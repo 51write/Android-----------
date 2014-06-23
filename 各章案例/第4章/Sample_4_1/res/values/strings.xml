@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_4_1!</string>
+    <string name="app_name">Sample_4_1</string>
+    <string name="tvEmail">邮箱地址\n(如：wyf12345678@wyf.com)</string>
+    <string name="etEmail">请输入电子邮件地址</string>
+    <string name="tvPhone">电话号码\n(如：123412341234567890)</string>
+    <string name="etPhone">请输入电话号码</string>
+    <string name="etInfo">此处显示登记信息</string>
+</resources>

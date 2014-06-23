@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TableExample</string>
+    <string name="tv1">我自己是一行........我自己是一行</string>		<!-- 该值用于独占一行的列 -->
+    <string name="tvShort">我的内容少</string>						<!-- 该值用于内容较少的列 -->
+    <string name="tvStrech">我是被拉伸的一列</string>				<!-- 该值用于被拉伸的列 -->
+    <string name="tvShrink">我是被收缩的一列被收缩的一列</string>		<!-- 该值用于被收缩的列 -->
+    <string name="tvLong">我的内容比较长比较长比较长</string> 		<!-- 该值用于内容比较长的列 -->
+</resources>

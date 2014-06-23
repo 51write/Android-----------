@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:shrinkColumns="0,2"
+	>											<!-- 声明一个TableLayout -->
+	<TableRow 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>										<!-- 声明一个TableRow控件 -->
+ 	<TextView android:id="@+id/tvEmail"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/tvEmail"
+ 		android:ellipsize="end"
+ 		android:autoLink="email"
+ 		/>										<!-- 声明一个TextView控件 -->
+ 	<EditText android:id="@+id/etEmail"
+ 		android:hint="@string/etEmail"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:selectAllOnFocus="true"
+ 		/>										<!-- 声明一个EditText控件 -->
+	</TableRow>
+	<TableRow 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>										<!-- 声明一个TableRow -->
+	<TextView android:id="@+id/tvPhone"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/tvPhone"
+ 		android:ellipsize="middle"
+ 		android:autoLink="phone"
+ 		/>										<!-- 声明一个TextView控件 -->
+	<EditText android:id="@+id/etPhone"
+ 		android:hint="@string/etPhone"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:selectAllOnFocus="true"
+ 		android:maxWidth="160px"
+ 		android:phoneNumber="true"
+ 		android:singleLine="true"
+ 		/>										<!-- 声明一个EditText控件 -->
+	</TableRow>
+	<EditText android:id="@+id/etInfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:editable="false"
+		android:hint="@string/etInfo"
+		android:cursorVisible="false"
+		android:lines="5"
+		android:shadowColor="@color/shadow"
+		android:shadowDx="2.5"
+		android:shadowDy="2.5"
+		android:shadowRadius="5.0"
+		/>										<!-- 声明一个EditText控件 -->
+</TableLayout>

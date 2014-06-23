@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+     android:id="@+id/LinearLayout01" 
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent" 
+     android:orientation="vertical"
+     xmlns:android="http://schemas.android.com/apk/res/android"><!-- 声明一个线性布局 -->
+    <ScrollView 
+      android:id="@+id/ScrollView01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent">				<!-- 声明一个ScrollView控件 -->
+         <EditText 
+            android:id="@+id/EditText01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:editable="false"
+            android:cursorVisible="false"
+            android:text="@string/label">			<!-- 声明一个EditText控件 -->
+         </EditText>      
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_6_1!</string>
+    <string name="app_name">Sample_6_1</string>
+    <string name="label">您的选择为\n</string>		<!-- 声明名为label的字符串资源 -->
+    <string name="gender">性别</string>				<!-- 声明名为gender的字符串资源 -->
+    <string name="male">男</string>					<!-- 声明名为male的字符串资源 -->
+    <string name="female">女</string>				<!-- 声明名为female的字符串资源 -->
+    <string name="hobby">爱好</string>				<!-- 声明名为hobby的字符串资源 -->
+    <string name="hobby1">游泳</string>				<!-- 声明名为hobby1的字符串资源 -->
+    <string name="hobby2">唱歌</string>				<!-- 声明名为hobby2的字符串资源 -->
+    <string name="hobby3">写Java程序</string>		<!-- 声明名为hobby3的字符串资源 -->
+    <string name="ok">确定</string>					<!-- 声明名为ok的字符串资源 -->	
+</resources>

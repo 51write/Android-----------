@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AbsoluteExample</string>
+    <string name="uid">用户名</string>	<!-- 声明名为uid的字符串资源 -->
+    <string name="pwd">密 码</string>	<!-- 声明名为uid的字符串资源 -->
+    <string name="ok">确定</string>		<!-- 声明名为uid的字符串资源 -->
+    <string name="cancel">取消</string>	<!-- 声明名为uid的字符串资源 -->
+</resources>

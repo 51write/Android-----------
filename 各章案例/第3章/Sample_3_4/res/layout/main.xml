@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+      android:id="@+id/FrameLayout01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:background="@color/white"
+      android:foreground="@color/red"
+      android:onClick="myClick"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+      <TextView 
+          android:text="@string/big" 
+          android:id="@+id/TextView01" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:textSize="60px"
+          android:textColor="@color/green"
+      >
+      </TextView>
+	  <TextView 
+	      android:text="@string/middle" 
+	      android:id="@+id/TextView02" 
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"
+	      android:textSize="40px"
+	      android:textColor="@color/red"
+	  >
+	  </TextView>
+      <TextView 
+          android:text="@string/small" 
+          android:id="@+id/TextView03" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:textSize="20px"
+          android:textColor="@color/blue"
+      >
+      </TextView>
+</FrameLayout>

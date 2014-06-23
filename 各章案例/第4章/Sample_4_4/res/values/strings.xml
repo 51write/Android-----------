@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Patch9Activity!</string>
+    <string name="app_name">Patch9Example</string>
+    <string name="largea">等比例不合理拉伸等比例不合理拉伸</string>
+    <string name="largeb">.9.png按需要拉伸按需要拉伸</string>
+    <string name="comm">原始未拉伸</string>  
+</resources>
